@@ -1,7 +1,5 @@
 #header{
   display: flex;
-  font-family: helvetica;
-  font-size: 22px;
   font-weight: bold;
   position: fixed;
   width: 100%;
