@@ -1,4 +1,4 @@
-.header{
+#header{
   display: flex;
   font-family: helvetica;
   font-size: 22px;
@@ -43,20 +43,22 @@ body{
   opacity: 0.9;
   text-align: center;
 }
-.main-container{
+#maincontainer{
 
 }
+
 #mission{
   height: 700px;
   width: 1200px;
   background-image: url("../images/img-mission-background.jpg");
+  background-size: cover;
   margin: 0 auto;
   flex-direction: column;
   display: flex;
   align-items: center;
   text-align: center;
-
 }
+<!--
 #banner{
   background-color: black;
   flex-direction: column;
@@ -65,15 +67,23 @@ body{
   text-align: center;
   width: 1200px;
   z-index: 0;
+  margin-top: 300px;
 }
 .banner h2, .banner h4{
   text-align: center;
 }
-
+#tea{
+  width: 1200px;
+  align-items: center;
+  margin: 0 auto;
+  flex-direction: column;
+  text-align: center;
+}
 
 .selection{
   text-align: center;
   display: inline-block;
+  padding: 10px;
 
 }
 .selection img{
