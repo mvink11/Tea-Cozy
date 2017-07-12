@@ -71,7 +71,6 @@ body{
   align-items: center;
   margin: 0 auto;
   flex-direction: column;
-  text-align: center;
 }
 
 .selection{
@@ -84,6 +83,10 @@ body{
   display: inline-block;
   height: 200px;
   width: 300px;
+  margin-bottom: 10px;
+}
+.selection h4{
+  margin-top: 0;
 }
 
 #locations{
