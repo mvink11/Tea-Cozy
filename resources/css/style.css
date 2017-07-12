@@ -1,7 +1,7 @@
 .header{
   display: flex;
-  font-family: verdana;
-  font-size: 14px;
+  font-family: helvetica;
+  font-size: 22px;
   font-weight: bold;
   position: fixed;
   width: 100%;
@@ -42,4 +42,42 @@ body{
   color: seashell;
   opacity: 0.9;
   text-align: center;
+}
+.main-container{
+
+}
+#mission{
+  height: 700px;
+  width: 1200px;
+  background-image: url("../images/img-mission-background.jpg");
+  margin: 0 auto;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+}
+#banner{
+  background-color: black;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  width: 1200px;
+  z-index: 0;
+}
+.banner h2, .banner h4{
+  text-align: center;
+}
+
+
+.selection{
+  text-align: center;
+  display: inline-block;
+
+}
+.selection img{
+  display: inline-block;
+  height: 200px;
+  width: 300px;
 }
