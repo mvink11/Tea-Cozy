@@ -91,3 +91,31 @@ body{
   height: 200px;
   width: 300px;
 }
+
+#locations{
+  background-image: url("../images/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  align-items: center;
+  margin: 0 auto;
+  flex-direction: column;
+  text-align: center;
+}
+#locations h2{
+  padding-top: 90px;
+  margin-bottom: 15px;
+}
+#address{
+  background-color: black;
+  width: 300px;
+  display: inline-block;
+  text-align: center;
+  opacity: 1;
+  margin-right: 40px;
+}
+#footer{
+  height: 200px;
+  text-align: center;
+  color: seashell;
+  top: 0;
+}
