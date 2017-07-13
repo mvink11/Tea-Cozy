@@ -42,8 +42,9 @@ body{
   text-align: center;
 }
 
-.main-container{
+#main-container{
   width: 1200px;
+  margin: auto;
 }
 #mission{
   height: 700px;
